@@ -1,3 +1,4 @@
+
 # FlaskInfinity
 
 ![Python](https://img.shields.io/badge/python-3.8+-blue.svg?style=flat)
@@ -47,9 +48,23 @@ python flask_infinity.py
 
 The Flask app will be accessible on `0.0.0.0:8070`.
 
-## License
+## Detailed Setup and Configuration Guide for FlaskInfinity
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+1. Clone the repository or download FlaskInfinity.py separately.
+
+2. Create a web app on PythonAnywhere based on Flask and insert your code into flask_app.py or whatever you named it.
+
+3. Insert FlaskInfinity into your existing code and replace the username and API token, which can be obtained at https://www.pythonanywhere.com/account/#api_token.
+
+4. Optionally, modify/add/remove the schedule for when the script should restart.
+
+5. Run the script, publish the web app (also check if it works by displaying "Hello from flask!") and take its URL address.
+
+6. Go to https://uptimerobot.com/ and sign up, then insert the URL.
+
+7. That's it! Now the app will run 24/7 and will only need to be restarted manually from time to time. Also, don't forget to reactivate the app every 3 months on the PythonAnywhere web app page and on uptime to ensure nothing shuts down.
+
+
 
 
 ## Russian README
@@ -58,7 +73,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Описание
 
-Flask Infinity — это веб-приложение на Flask, которое включает функцию автоматического перезапуска веб-приложений на PythonAnywhere. Приложение автоматически перезапустит ваше веб-приложение в запланированные моменты, используя API PythonAnywhere. Так же мы можете вставить его уже в существующий код, чтобы не открывать 100500 консолей.
+Flask Infinity — это веб-приложение на Flask, которое включает функцию автоматического перезапуска веб-приложений на PythonAnywhere. Приложение автоматически перезапустит ваше веб-приложение в запланированные моменты, используя API PythonAnywhere. Так же вы можете вставить его уже в существующий код, чтобы не открывать 100500 консолей.
 
 ### Особенности:
 - Автоматический перезапуск веб-приложения в заданное время.
@@ -91,6 +106,13 @@ python flask_infinity.py
 
 Flask-приложение будет доступно по адресу `0.0.0.0:8070`.
 
-## Лицензия
 
-Этот проект лицензируется на условиях MIT License — подробности см. в файле [LICENSE](LICENSE).
+## Подробная инструкция по установке и настройке FlaskInfinity
+
+1. Скопировать репозиторий или отдельно скачать FlaskInfinity.py.
+2. Создать веб-приложение на PythonAnywhere на базе Flask и вставить свой код в flask_app.py или как вы его там назвали.
+3. Вставить FlaskInfinity в существующий код и поменять username и api token, который можно взять на https://www.pythonanywhere.com/account/#api_token.
+4. По желанию изменить/добавить/убрать время, когда будет перезапускаться скрипт.
+5. Запустить скрипт, опубликовать веб-приложение (проверить также работу, там будет "Hello from flask!") и взять его URL адрес.
+6. Зайти и зарегистрироваться на https://uptimerobot.com/ и вставить туда URL.
+7. Всё, теперь приложение будет работать 24/7, и его лишь изредка нужно будет перезапускать вручную. Также не забывать каждые 3 месяца на странице веб-приложения в PythonAnywhere его подактивировать и на uptime, чтобы ничего не загасло.
