@@ -1,13 +1,12 @@
 # FlaskInfinity
 
-![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
-![License: MIT](https://img.shields.io/badge/license-MIT-orange.svg)
-![Flask](https://img.shields.io/badge/Framework-Flask-blue.svg?style=flat-square)
-![Open Source](https://img.shields.io/badge/Open%20Source-Yes-green.svg?style=flat-square)
-![Issues](https://img.shields.io/github/issues/MHumbucker/FlaskInfinity.svg?style=flat-square)
-![Forks](https://img.shields.io/github/forks/MHumbucker/FlaskInfinity.svg?style=flat-square)
-![Stars](https://img.shields.io/github/stars/MHumbucker/FlaskInfinity.svg?style=flat-square)
-
+![Python](https://img.shields.io/badge/python-3.8+-blue.svg?style=flat)
+![License: MIT](https://img.shields.io/badge/license-MIT-orange.svg?style=flat)
+![Flask](https://img.shields.io/badge/Framework-Flask-blue.svg?style=flat)
+![Open Source](https://img.shields.io/badge/Open%20Source-Yes-green.svg?style=flat)
+![Issues](https://img.shields.io/github/issues/MHumbucker/FlaskInfinity.svg?style=flat)
+![Forks](https://img.shields.io/github/forks/MHumbucker/FlaskInfinity.svg?style=flat)
+![Stars](https://img.shields.io/github/stars/MHumbucker/FlaskInfinity.svg?style=flat)
 
 ## English README
 
